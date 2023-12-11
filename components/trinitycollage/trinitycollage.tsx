@@ -1,28 +1,16 @@
 "use client";
-import React, { useState } from "react";
-import styles from "/styles/gallery.module.css";
+import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Image from "next/image";
 
 const TrinityCollage = () => {
-  const [slideIndex, setSlideIndex] = useState(0);
-
-  const nextSlide = () => {
-    setSlideIndex((prevIndex) => (prevIndex + 1) % totalSlides);
-  };
-
-  const prevSlide = () => {
-    setSlideIndex((prevIndex) => (prevIndex - 1 + totalSlides) % totalSlides);
-  };
-
-  const totalSlides = 19; 
+  const totalSlides = 19;
 
   return (
-    
     <section className="relative z-10 overflow-hidden pt-28 lg:pt-[150px]">
       <div className="container">
-      <h1 className="text-4xl font-bold mb-8">Trinity Collage</h1>
+        <h1 className="mb-8 text-4xl font-bold">Trinity Collage</h1>
         <Carousel
           additionalTransfrom={0}
           arrows
@@ -82,13 +70,13 @@ const TrinityCollage = () => {
               key={index}
               src={`/images/trinitycollage/${index + 1}.jpg`}
               alt={`Resim ${index + 1}`}
+              width={456}
+              height={456}
             />
           ))}
         </Carousel>
       </div>
     </section>
-
-    
   );
 };
 

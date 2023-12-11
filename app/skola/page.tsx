@@ -83,6 +83,8 @@ const Skola= () => {
               key={index}
               src={`/images/skola/${index + 1}.jpg`}
               alt={`Resim ${index + 1}`}
+              width={456}
+              height={456}
             />
           ))}
         </Carousel>

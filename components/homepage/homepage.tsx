@@ -81,6 +81,8 @@ const HomePage = () => {
               key={index}
               src={`/images/girisanasayfa/${index + 1}.jpg`}
               alt={`Resim ${index + 1}`}
+              width={456}
+              height={456}
             />
           ))}
         </Carousel>

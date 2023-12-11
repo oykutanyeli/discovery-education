@@ -83,6 +83,8 @@ const Oxford = () => {
               key={index}
               src={`/images/oxford/${index + 1}.jpg`}
               alt={`Resim ${index + 1}`}
+              width={456}
+              height={456}
             />
           ))}
         </Carousel>

@@ -75,6 +75,8 @@ const Ces = () => {
                 key={index}
                 src={`/images/ces/${index + 1}.jpg`}
                 alt={`Resim ${index + 1}`}
+                width={456}
+                height={456}
               />
             ))}
           </Carousel>

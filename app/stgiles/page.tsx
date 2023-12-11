@@ -83,6 +83,8 @@ const StGiles = () => {
               key={index}
               src={`/images/stgiles/${index + 1}.jpg`}
               alt={`Resim ${index + 1}`}
+              width={456}
+              height={456}
             />
           ))}
         </Carousel>
