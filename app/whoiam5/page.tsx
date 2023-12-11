@@ -21,7 +21,7 @@ const WhoIAm5 = () => {
                 Dünya sıralamasında en üst sırada yer alan üniversitelerden
                 mezun olursunuz. <br />
                 <br />
-                Dünya başarı sıralamasında ilk 100'de bulunan üniversitelerde
+                Dünya başarı sıralamasında ilk 100&apos;de bulunan üniversitelerde
                 geleceğinizi hayal ettiğiniz gibi <br />
                 planlarsınız.
                 <br />
