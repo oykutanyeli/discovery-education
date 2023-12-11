@@ -4,6 +4,7 @@ import styles from "/styles/gallery.module.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import TrinityCollage from "@/components/trinitycollage/trinitycollage";
+import Image from "next/image";
 
 const Oxford = () => {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -79,7 +80,7 @@ const Oxford = () => {
             swipeable
           >
             {[...Array(totalSlides)].map((_, index) => (
-              <img
+              <Image
                 className="aspect-square p-1"
                 key={index}
                 src={`/images/oxford/${index + 1}.jpg`}

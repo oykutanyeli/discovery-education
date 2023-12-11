@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import HarryPotter from "@/components/harrypotter/harrypotter";
 import Canada from "@/components/canada/canada";
+import Image from "next/image";
 
 const Ces = () => {
   const totalSlides = 29;
@@ -69,7 +70,7 @@ const Ces = () => {
             swipeable
           >
             {[...Array(totalSlides)].map((_, index) => (
-              <img
+              <Image
                 className="aspect-square p-1"
                 key={index}
                 src={`/images/ces/${index + 1}.jpg`}

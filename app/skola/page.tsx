@@ -4,6 +4,7 @@ import styles from "/styles/gallery.module.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import HMuze from "@/components/hmuze/hmuze";
+import Image from "next/image";
 
 const Skola= () => {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -77,7 +78,7 @@ const Skola= () => {
           swipeable
         >
           {[...Array(totalSlides)].map((_, index) => (
-            <img
+            <Image
               className="aspect-square p-1"
               key={index}
               src={`/images/skola/${index + 1}.jpg`}

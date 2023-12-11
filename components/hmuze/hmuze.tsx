@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import styles from "/styles/gallery.module.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Image from "next/image";
 
 const HMuze = () => {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -76,7 +77,7 @@ const HMuze = () => {
           swipeable
         >
           {[...Array(totalSlides)].map((_, index) => (
-            <img
+            <Image
               className="aspect-square p-1"
               key={index}
               src={`/images/hmuze/${index + 1}.jpg`}
