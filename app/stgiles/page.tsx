@@ -97,6 +97,7 @@ const StGiles = () => {
            
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1R7Bl3wN7LaawrRwCU9q5AJyvhIlPwCjH/view?usp=sharing"
               className="flex w-full items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
             >
@@ -104,6 +105,7 @@ const StGiles = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1s4ohjk1-GWemKw2ebAXLuXzBjf3bINlJ/view?usp=sharing"
               className="flex w-full items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
             >

@@ -37,6 +37,7 @@ const Footer = () => {
                   <a
                     href="https://instagram.com/discoveryeducation_?igshid=NzZlODBkYWE4Ng=="
                     target="_blank"
+                    rel="noreferrer"
                     aria-label="social-link"
                     className="inline-flex h-9 w-9 items-center justify-center rounded-sm bg-gray-light text-body-color duration-300 hover:bg-primary hover:text-white dark:bg-gray-dark dark:hover:bg-primary"
                   >

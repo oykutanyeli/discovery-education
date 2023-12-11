@@ -95,6 +95,7 @@ const Ces = () => {
           <div className="flex gap-5">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1dtfRSagPA74QeIFsvN6yQuwKoYtY8F2e/view?usp=sharing"
               className="flex w-full items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
             >
@@ -102,6 +103,7 @@ const Ces = () => {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1s68EnaEVO3QI54RKUeX-IuuL9nQ_sL1j/view?usp=sharing"
               className="flex w-full items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
             >

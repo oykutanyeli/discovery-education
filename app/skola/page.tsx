@@ -23,7 +23,7 @@ const Skola= () => {
     <>
     <section className="relative z-10 overflow-hidden pt-28 lg:pt-[150px]">
       <div className="container">
-      <h1 className="text-4xl font-bold mb-8">Skola Regent's Park</h1>
+      <h1 className="text-4xl font-bold mb-8">Skola Regent&apos;s Park</h1>
         <Carousel
           additionalTransfrom={0}
           arrows

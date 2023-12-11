@@ -77,7 +77,7 @@ const BlogDetailsPage = ({ params: { id } }) => {
                       </h4>
                       <div className="flex items-center">
                         {blogDataDetail.tags?.map((tag) => (
-                          <TagButton text={tag} />
+                          <TagButton text={tag} key={tag}/>
                         ))}
                       </div>
                     </div>

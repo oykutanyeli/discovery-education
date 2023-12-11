@@ -102,6 +102,7 @@ const Oxford = () => {
           <div className="flex gap-5">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1MmIRj7R4gapMjS9Ox33jgTvu8sjRuwyj/view?usp=sharing"
               className="flex w-full items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
             >

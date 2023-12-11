@@ -15,7 +15,7 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-3xl md:leading-tight">
-                  İngiltere'de okumaya karar verdiniz ancak hangi şehire ya da
+                  İngiltere&apos;de okumaya karar verdiniz ancak hangi şehire ya da
                   okula gideceğinize karar veremiyorsanız veya bölümünüzle
                   ilgili kafanızda soru işaretleri varsa, gelin süreci birlikte
                   konforla yürütelim. Başvurularınızı oluşturmadan önce
