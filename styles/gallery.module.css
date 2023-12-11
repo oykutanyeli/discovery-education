@@ -1,0 +1,40 @@
+/* gallery.module.css */
+
+.gallery {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    margin: 0 -8px; /* Resimler arasındaki boşluğu burada ekleyin */
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    margin: 0 8px; /* Resimler arasındaki boşluğu burada ekleyin */
+}
+
+.next-button,
+.prev-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px;
+    z-index: 2;
+}
+
+.next-button {
+    right: 0;
+}
+
+.prev-button {
+    left: 0;
+}
