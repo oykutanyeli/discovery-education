@@ -6,14 +6,14 @@ export const metadata: Metadata = {
   description: "This is About Page for Startup Nextjs Template",
 };
 
-const WhoIAm5 = () => {
+const WhoAreWe5 = () => {
   return (
     <>
       <Breadcrumb
         pageName="Neden Yurtdışında Lisans ve Yükseklisans ?"
         description=""
       />
-      <section id="whoiam5" className="pb-16 pt-16">
+      <section id="WhoAreWe4" className="pb-16 pt-16">
         <div className="container">
           <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
             <div className="-mx-4 flex flex-wrap items-center">
@@ -43,4 +43,4 @@ const WhoIAm5 = () => {
   );
 };
 
-export default WhoIAm5;
+export default WhoAreWe5;

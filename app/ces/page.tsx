@@ -96,7 +96,7 @@ const Ces = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1dtfRSagPA74QeIFsvN6yQuwKoYtY8F2e/view?usp=sharing"
+              href="https://drive.google.com/file/d/1zJ4PiYPhSbCNB2ctHv4yKAlbnLbT1pyd/view?usp=sharing"
               className="flex w-full items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
             >
               CES (Central English Studies)
@@ -104,7 +104,7 @@ const Ces = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1s68EnaEVO3QI54RKUeX-IuuL9nQ_sL1j/view?usp=sharing"
+              href="https://drive.google.com/file/d/1lLsS9agoLlH8HualvnWyBWWi-hXT3LtV/view?usp=sharing"
               className="flex w-full items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
             >
               Ces Junior Summer Programmes

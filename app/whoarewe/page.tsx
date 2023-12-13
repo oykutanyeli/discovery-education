@@ -7,14 +7,14 @@ export const metadata: Metadata = {
   
 };
 
-const WhoIAm = () => {
+const WhoAreWe = () => {
   return (
     <>
       <Breadcrumb
         pageName="Biz Kimiz?"
         description=""
       />
-      <section id="whoiam" className="pb-16 pt-16">
+      <section id="whoarewe" className="pb-16 pt-16">
         <div className="container">
           <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
             <div className="-mx-4 flex flex-wrap items-center">
@@ -40,4 +40,4 @@ const WhoIAm = () => {
   );
 };
 
-export default WhoIAm;
+export default WhoAreWe;

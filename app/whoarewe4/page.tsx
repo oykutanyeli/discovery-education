@@ -6,14 +6,14 @@ export const metadata: Metadata = {
   description: "This is About Page for Startup Nextjs Template",
 };
 
-const WhoIAm4 = () => {
+const WhoAreWe4= () => {
   return (
     <>
       <Breadcrumb
         pageName="İngiltere'de Branş Derslerine Ne Dersiniz?"
         description=""
       />
-      <section id="whoiam4" className="pb-16 pt-16">
+      <section id="whoarewe4" className="pb-16 pt-16">
         <div className="container">
           <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
             <div className="-mx-4 flex flex-wrap items-center">
@@ -34,4 +34,4 @@ const WhoIAm4 = () => {
   );
 };
 
-export default WhoIAm4;
+export default WhoAreWe4;

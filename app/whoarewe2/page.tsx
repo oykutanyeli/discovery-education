@@ -7,14 +7,14 @@ export const metadata: Metadata = {
 
 };
 
-const WhoIAm2 = () => {
+const WhoAreWe2 = () => {
   return (
     <>
       <Breadcrumb
         pageName="Size Yardımcı olabiliriz"
         description=""
       />
-      <section id="whoiam2" className="pb-16 pt-16">
+      <section id="WhoAreWe2" className="pb-16 pt-16">
         <div className="container">
           <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
             <div className="-mx-4 flex flex-wrap items-center">
@@ -37,4 +37,4 @@ const WhoIAm2 = () => {
   );
 };
 
-export default WhoIAm2;
+export default WhoAreWe2;
