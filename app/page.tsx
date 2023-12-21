@@ -4,8 +4,8 @@ import HomePage from "@/components/homepage/homepage";
 import Hero from "@/components/Hero";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
+  title: "Discover Education | Gezerek Dil Öğren",
+  description: "Discover Education | Gezerek Dil Öğren",
 };
 
 const Anasayfa = () => {
